@@ -1,15 +1,15 @@
 //Riechtangles
-int Riech1Width, Riech1Height, Riech2Width, Riech2Height;
+int Riech1Width, Riech1Height, Riech1X, Riech1Y;
 
 
 void riechtangles(){
-rect(Riech1Width, Riech1Height, Riech2Width, Riech2Height);
-line(120, 80, 340, 300);
+rect(Riech1Width, Riech1Height, Riech1X, Riech1Y);
+
 
 //Riechs
-Riech1Width = appWidth*1/2 ;
-Riech1Height = appHeight*2/4 ;
-Riech2Width = appWidth*2/3 ;
-Riech2Height = appHeight*4/6;
+Riech1Width = appWidth*1/4;
+Riech1Height = appHeight*1/4;
+Riech1X = appWidth*10/20;
+Riech1Y = appHeight*10/20;
 //
 }

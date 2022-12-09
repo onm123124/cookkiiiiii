@@ -3,7 +3,7 @@
 int appWidth, appHeight, largerDimension, smallerDimension;
 //
 void setup() {
-  size(600, 400);
+  size(1000, 800);
   //fullScreen(); //displayWidth, displayHeight
   //Display Algorithm from Hello World
   //display();
