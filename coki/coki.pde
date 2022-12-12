@@ -18,11 +18,14 @@ void setup() {
 //
 void draw() {
  riechtangles();
+ Riechcommskirat();
   {
     //Hover Over Feature
     println("X-value", quitButtonX, mouseX ,quitButtonX+quitButtonWidth );
     println("Y-value", quitButtonY, mouseY ,quitButtonY+quitButtonHeight );    
   }
+  if(quitButtonY>quitButtonX);
+  print("test");
   if ( key==' ' && start==true) noNowReallyStart = true;
   //
   //Prototype Key Board Quit Button OR Shortcut
@@ -31,7 +34,7 @@ void draw() {
   //
   
  //Text
- 
+
 }
 void mousePressed() {
 {

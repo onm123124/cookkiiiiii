@@ -20,5 +20,4 @@ LineX2 = appWidth*2/3;
 LineY1 = appHeight*1/3;
 LineY2 = appHeight*2/3;
 //
-
 }
