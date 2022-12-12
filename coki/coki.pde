@@ -1,11 +1,12 @@
 
 //Global Variables
 int appWidth, appHeight, largerDimension, smallerDimension;
-Boolean start=false, noNowReallyStart=false;
+Boolean start=false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
+PImage img;
 //
 void setup() {
-  size(600, 400);
+  size(1200, 800);
   //fullScreen(); //displayWidth, displayHeight
   //Display Algorithm from Hello World
   //display();
@@ -13,39 +14,32 @@ void setup() {
   appHeight = height;
   largerDimension = 0; //From Display Algorithm
   smallerDimension = 0; //From Display Algorithm
+   if(start==true);
+img = loadImage("../Images/Drougs.jpg");
   
 }//End setup
 //
 void draw() {
+  if(start == true){
+  image(img, 0,0,appWidth/3, appHeight/3);
+  }
+
  riechtangles();
  Riechcommskirat();
-  {
-    //Hover Over Feature
-    println("X-value", quitButtonX, mouseX ,quitButtonX+quitButtonWidth );
-    println("Y-value", quitButtonY, mouseY ,quitButtonY+quitButtonHeight );    
+     //Hover Over Feature
   }
-  if(quitButtonY>quitButtonX);
-  print("test");
-  if ( key==' ' && start==true) noNowReallyStart = true;
-  //
-  //Prototype Key Board Quit Button OR Shortcut
-  if ( key=='Q' || key=='q') exit() ;
-  if ( key==CODED && keyCode == ESC ) exit();
-  //
-  
+
+
  //Text
 
-}
+
 void mousePressed() {
 {
-  //
-  //OS Level Start Button
-  start = true;
-  println("To Start, Press the Space Bar");
-  //
-  //Quit Button: Logical Rectangle, see println in draw()
-  if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
-  //
+ 
+if(mouseX==appWidth*1/3 && mouseY==appHeight*1/3 && start==false);
+println("Welcome to the cooking place");
+start=true;
+
 } //End mousePressed
 // 
 }//End mousePressed
