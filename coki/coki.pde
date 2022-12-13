@@ -28,7 +28,7 @@ void draw() {
   }
 if(start==false){
  println("hi, please read the instructions and to start click the start button.");
-image(img,0.000000001,0.00000001);
+img=loadImage("");
 }
  riechtangles();
  Riechcommskirat();
