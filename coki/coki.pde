@@ -1,7 +1,8 @@
 
 //Global Variables
 int appWidth, appHeight, largerDimension, smallerDimension;
-Boolean start=false, Phase2=false;
+Boolean start=false, Phase2=false, Phase3=false;
+Boolean Daymode = false, Nightmode = false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 PImage img,img2,img3,img4,img5;
 //
@@ -16,7 +17,7 @@ void setup() {
   display();
   largerDimension = 0; //From Display Algorithm
   smallerDimension = 0; //From Display Algorithm
-
+Modes();
 
 
 }//End setup
