@@ -3,7 +3,7 @@
 int appWidth, appHeight, largerDimension, smallerDimension;
 Boolean start=false, Phase2=false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
-PImage img;
+PImage img,img2,img3,img4,img5;
 //
 
 //
