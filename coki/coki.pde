@@ -25,6 +25,7 @@ void draw() {
   if(start == true){
     img = loadImage("../Images/Drougs.jpg");
   image(img, 0,0,appWidth/3, appHeight/3);
+  text("Welcome to the cooking place",appWidth/2, appHeight/2);
   }
 
 if(start==false){

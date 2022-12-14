@@ -1,5 +1,11 @@
 void Phase2(){
-if(){
-img2=loadImage(../Image);
+if(mouseButton == LEFT) {
+  Phase2 = true;
+
+};
+if (Phase2 == true) {
+  img2=loadImage ("../Image/Drougs.jpg");
+  text("test",appWidth/2, appHeight/2);
   }
+  
 };
