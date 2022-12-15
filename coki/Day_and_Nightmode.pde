@@ -9,10 +9,10 @@ Nightmode=false;
 Daymode=true;
 }
 if(Nightmode==true){
-background(0,0,0);
+  tint(0,0,0);
 }
 if(Daymode==true){
-  background(255,255,255);
+  tint(255,255,255);
 }
 if(start==false){
 Daymode=false;
