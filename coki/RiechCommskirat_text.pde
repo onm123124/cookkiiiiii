@@ -54,5 +54,48 @@ textSize(20);
 fill(255, 129, 78);
 text("READ THE INSTRUCTIONS DOCUMENT", appWidth/2.8, appHeight/9);
 fill(reset);
-}  
+}
+if(Phase3==true){
+textSize(20);
+fill(0,0,0);
+text("First our expert cook makes", appWidth/30, appHeight/2);
+fill(reset);
+
+textSize(20);
+fill(0,0,0);
+text("the white powder", appWidth/30, appHeight/1.9);
+fill(reset);
+
+textSize(20);
+fill(255, 129, 78);
+text("Press C to continue", appWidth/30, appHeight/1.8);
+fill(reset);
+}
+if(Phase4==true){
+textSize(20);
+fill(255, 255, 255);
+text("Then our expert transporters transport it", appWidth/300, appHeight/1.4);
+fill(reset);
+
+textSize(20);
+fill(255, 129, 78);
+text("Press B to continue", appWidth/30, appHeight/1.2);
+fill(reset);
+};
+if(Phase5==true){
+textSize(20);
+fill(255,255,255);
+text("Then our white powder is mixed in with", appWidth/3, appHeight/1.3);
+fill(reset);
+
+textSize(20);
+fill(255,255,255);
+text("our delicious chicken", appWidth/3, appHeight/1.2);
+fill(reset);
+
+textSize(20);
+fill(255, 129, 78);
+text("Press i to continue", appWidth/3, appHeight/1.1);
+fill(reset);
+};
 }

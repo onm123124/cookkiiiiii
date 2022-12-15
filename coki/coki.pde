@@ -1,10 +1,10 @@
 
 //Global Variables
 int appWidth, appHeight, largerDimension, smallerDimension;
-Boolean start=false, Phase2=false, Phase3=false;
+Boolean start=false, Phase2=false, Phase3=false, Phase4=false, Phase5=false, Phase6=false, Phase7=false;
 Boolean Daymode = false, Nightmode = false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
-PImage img,img2,img3,img4,img5;
+PImage img,img2,img3,img4,img5, img6;
 //
 
 //
@@ -28,6 +28,10 @@ void draw() {
   text("Welcome to the cooking place",appWidth/2, appHeight/2);
   }
 Modes();
+Phase3();
+Phase4();
+Phase5();
+
 if(start==false){
  println("hi, please read the instructions and to start click the start button.");
 background(234, 221, 202);
@@ -36,7 +40,7 @@ background(234, 221, 202);
  Riechcommskirat();
  
 
-  }
+  }//End draw
 void mousePressed() {
 {
  Phase2();
@@ -53,6 +57,6 @@ println("System reset");
 void keyPressed() {
   
 
-}
+}//End keypressed
 //
 //End MAIN Program
