@@ -10,7 +10,7 @@ TextTY2=appHeight*15/30;
 //text type
 textSize(30);
 fill(255, 129, 78);
-text("Start(click)", TextX1, TextTY1 );
+text("Start(left click)", TextX1, TextTY1 );
 fill(reset);
 //
 
@@ -47,6 +47,12 @@ textSize(20);
 fill(255, 129, 78);
 text("Press ESC to quit.", appWidth/2.5, appHeight/3.5);
 fill(reset);
-};
-
-};
+  
+  
+  
+textSize(20);
+fill(255, 129, 78);
+text("READ THE INSTRUCTIONS DOCUMENT", appWidth/2.8, appHeight/9);
+fill(reset);
+}  
+}

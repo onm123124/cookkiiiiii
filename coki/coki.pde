@@ -17,7 +17,6 @@ void setup() {
   display();
   largerDimension = 0; //From Display Algorithm
   smallerDimension = 0; //From Display Algorithm
-Modes();
 
 
 }//End setup
@@ -28,7 +27,7 @@ void draw() {
   image(img, 0,0,appWidth/3, appHeight/3);
   text("Welcome to the cooking place",appWidth/2, appHeight/2);
   }
-
+Modes();
 if(start==false){
  println("hi, please read the instructions and to start click the start button.");
 background(234, 221, 202);
@@ -50,6 +49,10 @@ println("System reset");
 };
 } //End mousePressed
 // 
-}//End mousePressed
+}
+void keyPressed() {
+  
+
+}
 //
 //End MAIN Program
