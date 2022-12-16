@@ -1,4 +1,3 @@
-
 //Global Variables
 int appWidth, appHeight, largerDimension, smallerDimension;
 Boolean start=false, Phase2=false, Phase3=false, Phase4=false, Phase5=false, Phase6=false, Phase7=false;
