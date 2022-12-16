@@ -97,5 +97,16 @@ textSize(20);
 fill(255, 129, 78);
 text("Press i to continue", appWidth/3, appHeight/1.1);
 fill(reset);
+}
+if(Phase6==true){
+textSize(20);
+fill(255, 255, 255);
+text("Our customers love it!", appWidth/1.4, appHeight/1.1);
+fill(reset);
+
+textSize(20);
+fill(255, 255, 255);
+text("Press F  to continue", appWidth/1.4, appHeight/1.01);
+fill(reset);
 };
 }

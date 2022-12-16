@@ -31,7 +31,8 @@ Modes();
 Phase3();
 Phase4();
 Phase5();
-
+Phase6();
+Phase7();
 if(start==false){
  println("hi, please read the instructions and to start click the start button.");
 background(234, 221, 202);
