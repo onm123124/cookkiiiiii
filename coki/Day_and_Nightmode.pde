@@ -9,7 +9,7 @@ Nightmode=false;
 Daymode=true;
 }
 if(Nightmode==true){
-  tint(3,100,100);
+  tint(#837777);
 }
 if(Daymode==true){
   tint(255,255,255);

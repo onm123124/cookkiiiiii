@@ -4,11 +4,12 @@ Boolean start=false, Phase2=false, Phase3=false, Phase4=false, Phase5=false, Pha
 Boolean Daymode = false, Nightmode = false;
 float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 PImage img,img2,img3,img4,img5, img6;
+
 //
 
 //
 void setup() {
-  size(1200, 800);
+  size(1200,800);
   //fullScreen(); //displayWidth, displayHeight
   //Display Algorithm from Hello World
   appWidth = width;
@@ -39,8 +40,9 @@ background(234, 221, 202);
  riechtangles();
  Riechcommskirat();
  
+};
 
-  }//End draw
+//End draw
 void mousePressed() {
 {
  Phase2();
